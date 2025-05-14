@@ -1,10 +1,15 @@
 
 .container{
-    width: 100%;
-    height: 600px;
     background-image: url('../../assets//HeaderBg2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.container-2{
+    background-image: url('../../assets/FuncionalidadesBg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 

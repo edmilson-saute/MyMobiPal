@@ -7,10 +7,10 @@ export default function MenuModal() {
     return (
         <div>
             <div className="w-full h-auto  bg-white mt-0 fixed top-24 left-0 z-50">
-                <ul className="space-y-3 border-b-2 border-black">
+                <ul className="space-y-3 border-b-2 border-black paragraph" style={{fontSize:'0.8rem'}}>
                     <li className="text-black pl-3 mt-2">Home</li>
                     <li onClick={() => setArrow(!arrow)} className="text-black pl-3 mt-2 flex flex-row">Serviços e Produtos 
-                        {arrow == false ? (<FaChevronDown style={{}} className="ml-2 mt-2"/>) : (<FaChevronUp style={{}} className="ml-2 mt-2"/>)}
+                        {arrow == false ? (<FaChevronDown style={{}} className="ml-2 mt-1"/>) : (<FaChevronUp style={{}} className="ml-2 mt-1"/>)}
                     </li>
                     <li className="text-black pl-3 mt-2">Preços</li>
                     <li className="text-black pl-3 mt-2 mb-4">FAQ's</li>
