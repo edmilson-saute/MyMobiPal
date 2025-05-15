@@ -1,12 +1,12 @@
-import Funcionalidades from '../components/MainContent/Funcionalidades';
+import Functionalities from '../components/MainContent/Functionalities';
 import Pricing from '../components/MainContent/Pricing';
-import ProdutosServicos from '../components/MainContent/ProdutosServicos';
+import ProductsServices from '../components/MainContent/ProductsServices';
 
 export default function MainContent(){
     return(
         <main>
-            <ProdutosServicos/>
-            <Funcionalidades/>
+            <ProductsServices/>
+            <Functionalities/>
             <Pricing/>
         </main>
     )
