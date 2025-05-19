@@ -1,11 +1,11 @@
-import HomePage from './pages/HomePage'
+import HomePage from './components/pages/HomePage';
 
 function App() {
 
   return (
     <>
-       <div className="w-full h-screen flex flex-col">
-          <HomePage/>
+       <div>
+           <HomePage/>
        </div>
     </>
   )
