@@ -44,9 +44,9 @@ export default function MiniForm() {
                        
                         <div className="flex flex-row border-[1px] mt-4 border-gray-400 rounded-lg items-center lg:h-16 lg:mt-0">
                             <span className="p-3 border-r-[1px] border-gray-400">MZN</span>
-                            <input type="text" name="" id="" className="pl-2" placeholder="1.00"/>
+                            <input type="text" name="" id="" className="pl-2 outline-none border-none" placeholder="1.00"/>
                         </div>
-                        <button className="w-11/12 mx-auto bg-blue-500 rounded-lg text-white font-semibold p-3 mt-4 mb-4 lg:h-16">Prosseguir</button>
+                        <button className="w-11/12 mx-auto bg-blue-500 rounded-lg text-white font-semibold p-3 mt-4 mb-4 cursor-pointer lg:h-16">Prosseguir</button>
                     </div>
                 </form>
             </div>
