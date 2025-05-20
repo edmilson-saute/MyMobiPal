@@ -1,4 +1,4 @@
-import NavBar from '../layouts/containers/NavBar'
+import NavBar from '../layouts/headerContainers/NavBar'
 
 export default function Header(){
     return(
